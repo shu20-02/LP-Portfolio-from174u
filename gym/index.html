@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>IRON FORCE GYM | 本気で変わる、本格ジム</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="名古屋の本格トレーニングジム。24時間営業・最新設備・プロトレーナー在籍。無料体験受付中。">
+
+    <link rel="icon" href="img/boxicons-gym.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v7.2.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============================================================
+    #01 HEADER（NAVBAR）
+    ============================================================ -->
+    <header class="header">
+        <nav class="header__nav js-nav">
+            <div class="header__logo logo">
+                <img src="img/iron-force-logo.png" alt="IRON FORCE GYM">
+            </div>
+
+            <ul class="header__menu js-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#info">Information</a></li>
+                <li><a href="#contact" class="button btn--primary">無料体験</a></li>
+            </ul>
+
+            <div class="header__toggle js-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="header__mask js-mask"></div>
+        </nav>
+    </header>
+
+    <!-- ============================================================
+    #02 HERO
+    ============================================================ -->
+    <section class="hero">
+        <div class="hero__inner">
+            <p class="hero__lead fadein delay1">Nagoya's Premium Gym</p>
+            <h1 class="hero__title fadein delay2">
+                限界を、<br>
+                <strong>　　超えろ。</strong>
+            </h1>
+            <p class="hero__desc fadein delay3">
+                最新マシン完備。プロトレーナーが常駐。<br>
+                あなたの本気に、全力で応える。
+            </p>
+            <div class="btns hero__btns fadein delay4">
+                <a href="#contact" class="button btn--primary">無料体験を申し込む</a>
+                <a href="#plans" class="button btn--ghost">料金プランを見る</a>
+            </div>
+            <div class="hero__status fadein delay5">
+                <div class="hero__item">
+                    <strong>200+</strong>
+                    <span>マシン台数</span>
+                </div>
+                <div class="hero__item">
+                    <strong>24h</strong>
+                    <span>営業時間</span>
+                </div>
+                <div class="hero__item">
+                    <strong>5,000+</strong>
+                    <span>会員数</span>
+                </div>
+                <div class="hero__item">
+                    <strong>15年</strong>
+                    <span>実績</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #03 ABOUT
+    ============================================================ -->
+    <section id="about" class="section about">
+        <div class="wrapper">
+            <div class="about__list">
+                <div class="about__item">
+                    <h2 class="sec__header">
+                        <span class="sec__tag">ABOUT US</span>
+                        <span class="sec__title">
+                            本気で変わりたい人のための場所。
+                        </span>
+                    </h2>
+                    <p class="about__desc">
+                        IRON FORCE GYMは2009年の創業以来、「本物の変化」を追求し続けてきました。
+                        ダイエット、筋肥大、競技力向上——目的は違っても、最高の環境と指導でサポートします。
+                    </p>
+                    <p class="about__desc">
+                        最新のフリーウェイトエリア、充実したカーディオゾーン、スタジオプログラムまで。
+                        全て揃っているから、あなたはトレーニングだけに集中できる。
+                    </p>
+                    <a href="#contact" class="button btn--primary">無料体験を申し込む</a>
+                </div>
+
+                <!-- ジムの内装画像貼り付け -->
+                <div class="about__image">
+                    <img src="img/mohamed-fareed-rbSNsoXk-3A-unsplash.webp" alt="ジム内部">
+                    <div class="about__badge">
+                        <strong>2009</strong>
+                        <span>Est.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #04 FEATURES
+    3カラムのカードグリッド
+    ・カードを追加するときは .feature-card をコピーするだけ
+    ============================================================ -->
+    <section id="features" class="section features">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">FEATURES</span>
+                <span class="sec__title">選ばれる理由</span>
+                <p class="sec__desc">他にはない圧倒的な設備とサービス。</p>
+            </h2>
+            <div class="features__box">
+                <!-- カード 1（上段左） -->
+                <div class="features__card">
+                    <i class="features__icon fas fa-dumbbell"></i>
+                    <h3 class="features__title">最新フリーウェイト</h3>
+                    <p class="features__text">バーベルやダンベル、ケーブルマシン、プレートロードマシンなど50台以上完備。あらゆるトレーニングに対応。</p>
+                </div>
+
+                <!-- カード 2（上段中央） -->
+                <div class="features__card">
+                    <i class="features__icon fas fa-running"></i>
+                    <h3 class="features__title">カーディオゾーン</h3>
+                    <p class="features__text">最新トレッドミルやバイク、ローイングマシン、ステアマスターを完備。有酸素運動も思い切り。</p>
+                </div>
+
+                <!-- カード 3（上段右） -->
+                <div class="features__card">
+                    <i class="features__icon fas fa-users"></i>
+                    <h3 class="features__title">グループレッスン</h3>
+                    <p class="features__text">ヨガ・ピラティス・HIIT など週30本以上のスタジオプログラムを無料で受講可能。</p>
+                </div>
+
+                <!-- カード 4（下段左） -->
+                <div class="features__card">
+                    <i class="features__icon fas fa-shower"></i>
+                    <h3 class="features__title">充実の更衣室</h3>
+                    <p class="features__text">広々とした更衣室にサウナ・アイスバスも完備。トレーニング後もリフレッシュ。</p>
+                </div>
+
+                <!-- カード 5（下段中央） -->
+                <div class="features__card">
+                    <i class="features__icon fas fa-moon"></i>
+                    <h3 class="features__title">24時間営業</h3>
+                    <p class="features__text">早朝でも深夜でも、自分のライフスタイルに合わせて通える。いつでもあなたのジム。</p>
+                </div>
+
+                <!-- カード 6（下段右） -->
+                <div class="features__card">
+                    <i class="features__icon fas fa-parking"></i>
+                    <h3 class="features__title">無料駐車場完備</h3>
+                    <p class="features__text">30台収容の無料駐車場を完備。電車でも車でも通いやすい好立地。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+    #05 PLANS
+    タブ切り替え：Monthly / Annual
+    ・.plans__btn の data-tab と .lans__btn の id を合わせる
+    ============================================================ -->
+    <section id="plans" class="section plans">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">MEMBERSHIP</span>
+                <span class="sec__title">料金プラン</span>
+                <p class="sec__desc">あなたの目標に合わせて選べる3プラン。</p>
+            </h2>
+            <!-- タブボタン -->
+            <div class="plans__tab">
+                <button class="plans__btn active" data-tab="monthly">月額プラン</button>
+                <button class="plans__btn" data-tab="annual">年間プラン<span class="plans__badge">お得</span></button>
+            </div>
+
+
+            <!-- ▼ 月額プラン -->
+            <div id="monthly" class="plans__panel active">
+                <div class="plans__list">
+                    <div class="plans__card">
+                        <h3 class="plans__header">
+                            <p class="plans__title">ライト</p>
+                            <p class="plans__desc">平日限定・6〜22時</p>
+                        </h3>
+                        <div class="plans__price">
+                            <strong>¥6,600</strong><span>/月</span>
+                        </div>
+                        <ul class="plans__features">
+                            <li><i class="plans__icon fas fa-check"></i> マシンエリア利用</li>
+                            <li><i class="plans__icon fas fa-check"></i> グループレッスン（月4回）</li>
+                            <li><i class="plans__icon fas fa-check"></i> ロッカー使用</li>
+                            <li class="disabled"><i class="plans__icon fas fa-times"></i> フリーウェイトエリア</li>
+                            <li class="disabled"><i class="plans__icon fas fa-times"></i> サウナ・ジャグジー</li>
+                        </ul>
+                        <a href="#contact" class="button plans--outline">このプランで体験</a>
+                    </div>
+
+                    <div class="plans__card plans__card--popular">
+                        <div class="plans__badge">人気 No.1</div>
+                        <h3 class="plans__header">
+                            <p class="plans__title">スタンダード</p>
+                            <p class="plans__desc">全日・全時間帯</p>
+                        </h3>
+                        <div class="plans__price">
+                            <strong>¥9,900</strong><span>/月</span>
+                        </div>
+                        <ul class="plans__features">
+                            <li><i class="plans__icon fas fa-check"></i> 全エリア利用</li>
+                            <li><i class="plans__icon fas fa-check"></i> グループレッスン無制限</li>
+                            <li><i class="plans__icon fas fa-check"></i> ロッカー使用</li>
+                            <li><i class="plans__icon fas fa-check"></i> フリーウェイトエリア</li>
+                            <li class="disabled"><i class="plans__icon fas fa-times"></i> サウナ・ジャグジー</li>
+                        </ul>
+                        <a href="#contact" class="button btn--primary">このプランで体験</a>
+                    </div>
+
+                    <div class="plans__card">
+                        <h3 class="plans__header">
+                            <p class="plans__title">プレミアム</p>
+                            <p class="plans__desc">全日・全時間帯＋全施設</p>
+                        </h3>
+                        <div class="plans__price">
+                            <strong>¥13,200</strong><span>/月</span>
+                        </div>
+                        <ul class="plans__features">
+                            <li><i class="plans__icon fas fa-check"></i> 全エリア利用</li>
+                            <li><i class="plans__icon fas fa-check"></i> グループレッスン無制限</li>
+                            <li><i class="plans__icon fas fa-check"></i> ロッカー使用</li>
+                            <li><i class="plans__icon fas fa-check"></i> フリーウェイトエリア</li>
+                            <li><i class="plans__icon fas fa-check"></i> サウナ・ジャグジー</li>
+                        </ul>
+                        <a href="#contact" class="button plans--outline">このプランで体験</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ▼ 年間プラン（2ヶ月分お得） -->
+            <div id="annual" class="plans__panel">
+                <div class="plans__list">
+                    <div class="plans__card">
+                        <h3 class="plans__header">
+                            <p class="plans__title">ライト</p>
+                            <p class="plans__desc">平日限定・6〜22時</p>
+                        </h3>
+                        <div class="plans__price">
+                            <strong>¥59,400</strong><span>/年</span>
+                        </div>
+                        <ul class="plans__features">
+                            <li><i class="plans__icon fas fa-check"></i> マシンエリア利用</li>
+                            <li><i class="plans__icon fas fa-check"></i> グループレッスン（月4回）</li>
+                            <li><i class="plans__icon fas fa-check"></i> ロッカー使用</li>
+                            <li class="disabled"><i class="plans__icon fas fa-times"></i> フリーウェイトエリア</li>
+                            <li class="disabled"><i class="plans__icon fas fa-times"></i> サウナ・ジャグジー</li>
+                        </ul>
+                        <a href="#contact" class="button plans--outline">このプランで体験</a>
+                    </div>
+
+                    <div class="plans__card plans__card--popular">
+                        <div class="plans__badge">人気 No.1</div>
+                        <h3 class="plans__header">
+                            <p class="plans__title">スタンダード</p>
+                            <p class="plans__desc">全日・全時間帯</p>
+                        </h3>
+                        <div class="plans__price">
+                            <strong>¥89,100</strong><span>/年</span>
+                        </div>
+                        <ul class="plans__features">
+                            <li><i class="plans__icon fas fa-check"></i> 全エリア利用</li>
+                            <li><i class="plans__icon fas fa-check"></i> グループレッスン無制限</li>
+                            <li><i class="plans__icon fas fa-check"></i> ロッカー使用</li>
+                            <li><i class="plans__icon fas fa-check"></i> フリーウェイトエリア</li>
+                            <li class="disabled"><i class="plans__icon fas fa-times"></i> サウナ・ジャグジー</li>
+                        </ul>
+                        <a href="#contact" class="button btn--primary">このプランで体験</a>
+                    </div>
+
+                    <div class="plans__card">
+                        <h3 class="plans__header">
+                            <p class="plans__title">プレミアム</p>
+                            <p class="plans__desc">全日・全時間帯＋全施設</p>
+                        </h3>
+                        <div class="plans__price">
+                            <strong>¥118,800</strong><span>/年</span>
+                        </div>
+                        <ul class="plans__features">
+                            <li><i class="plans__icon fas fa-check"></i> 全エリア利用</li>
+                            <li><i class="plans__icon fas fa-check"></i> グループレッスン無制限</li>
+                            <li><i class="plans__icon fas fa-check"></i> ロッカー使用</li>
+                            <li><i class="plans__icon fas fa-check"></i> フリーウェイトエリア</li>
+                            <li><i class="plans__icon fas fa-times"></i> サウナ・ジャグジー</li>
+                        </ul>
+                        <a href="#contact" class="button plans--outline">このプランで体験</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #06 GALLERY
+    ============================================================ -->
+    <section id="gallery" class="section gallery">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">GALLERY</span>
+                <span class="sec__title">施設紹介</span>
+            </h2>
+        </div>
+
+        <div class="gallery__list">
+            <div class="gallery__item gallery__item--large">
+                <img src="img/craig-lovelidge-yDGsn39fbD4-unsplash.webp" alt="フリーウェイトエリア">
+                <div class="gallery__overlay"><span>Free Weight</span></div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="img/craig-lovelidge-ndr4vtteVGw-unsplash.webp" alt="カーディオゾーン">
+                <div class="gallery__overlay"><span>Cardio Zone</span></div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="img/olga-pukhalskaya-dwka5DDrnY0-unsplash.webp" alt="スタジオ">
+                <div class="gallery__overlay"><span>Studio</span></div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="img/gildasio-filho-A-_kB052h7Q-unsplash.webp" alt="ロッカールーム">
+                <div class="gallery__overlay"><span>Locker Room</span></div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="img/huum-Cu0CbpD87-s-unsplash.webp" alt="サウナ">
+                <div class="gallery__overlay"><span>Sauna</span></div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- ============================================================
+    #07 CONTACT（CTA）
+    ============================================================ -->
+    <section id="contact" class="section contact">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">FREE TRIAL</span>
+                <span class="sec__title">まずは<em>体験から</em></span>
+                <p class="sec__desc">無料体験は今すぐ申し込めます。費用は一切かかりません。</p>
+            </h2>
+            <div class="contact__inner">
+                <form class="contact__form js-contact" method="post">
+                    <div class="contact__list">
+                        <div class="contact__group">
+                            <label for="name">お名前</label>
+                            <input id="name" name="name" type="text" placeholder="山田 太郎" required>
+                        </div>
+                        <div class="contact__group">
+                            <label for="phone">お電話番号</label>
+                            <input id="phone" name="phone" type="tel" placeholder="080-0000-0000" required>
+                        </div>
+                    </div>
+
+                    <div class="contact__list">
+                        <div class="contact__group">
+                            <label for="date">ご希望日</label>
+                            <input id="date" name="date" type="date" required>
+                        </div>
+                        <div class="contact__group">
+                            <label for="goal">トレーニング目的</label>
+                            <select id="goal" name="goal">
+                                <option value="" disabled selected>選択してください</option>
+                                <option value="diet">ダイエット</option>
+                                <option value="bodymake">ボディメイク</option>
+                                <option value="health">健康維持</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="contact__group contact__group--full">
+                        <label for="message">ご質問</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <input class="button btn--primary" type="submit" value="無料体験を申し込む">
+                </form>
+
+                <div class="contact__success js-contact__success">
+                    <i class="contact__icon fas fa-check-circle"></i>
+                    <div class="contact__text">
+                        <p class="contact__title">お申し込みありがとうございます！</p>
+                        <p class="contact__desc">担当スタッフより折り返しご連絡いたします。</p>
+                        <p class="">※ 本フォームはデモのため送信機能は実装しておりません。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+    #08 SHOP INFO
+    ============================================================ -->
+    <section id="info" class="section info">
+        <div class="wrapper">
+            <div class="info__list">
+                <div class="info__item">
+                    <h2 class="sec__header">
+                        <span class="sec__tag">SHOP INFO</span>
+                        <span class="sec__title">店舗情報</span>
+                    </h2>
+                    <div class="info__addr">
+                        <dl class="info__group">
+                            <dt><i class="info__icon fa-solid fa-location-pin"></i></dt>
+                            <dd>
+                                <strong>住所</strong>
+                                <span>〒000-0000 愛知県 名古屋市 千種区 ○○-○</span>
+                            </dd>
+                        </dl>
+                        <dl class="info__group">
+                            <dt><i class="info__icon fa-solid fa-train"></i></dt>
+                            <dd>
+                                <strong>アクセス</strong>
+                                <span>○○線「○○駅」A1出口 徒歩3分</span>
+                            </dd>
+                        </dl>
+                        <dl class="info__group">
+                            <dt><i class="info__icon fa-solid fa-clock"></i></dt>
+                            <dd>
+                                <strong>営業時間</strong>
+                                <p>
+                                    24時間365日営業<br>
+                                    <span class="info__note">※フロントスタッフ在籍：10:00〜19:00</span>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="info__group">
+                            <dt><i class="info__icon fa-solid fa-phone"></i></dt>
+                            <dd>
+                                <strong>電話番号</strong>
+                                <span>000-00000-00000</span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="info__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16901.711743422853!2d136.9185727106342!3d35.17076985562403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370edc269ee1b%3A0x3231b93802702bb2!2z5Y2D56iu6aeF!5e0!3m2!1sja!2sjp!4v1775597255923!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- ============================================================
+    #09 FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="wrapper footer__inner">
+            <div class="footer__brand">
+                <div class="footer__logo logo">
+                    <img src="img/iron-force-logo.png" alt="IRON FORCE GYM">
+                </div>
+                <p class="footer__desc">
+                    本気で変わりたい人のためのジム。<br>最高の環境で、最高の結果を。
+                </p>
+                <ul class="footer__sns">
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="LINE"><i class="sns__icon fa-brands fa-line"></i></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="sns__icon fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="FaceBook"><i class="sns__icon fa-brands fa-square-facebook"></i></a></li>
+                </ul>
+            </div>
+
+            <nav class="footer__item">
+                <p class="footer__title">メニュー</p>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#info">Access</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__item">
+                <p class="footer__title">情報</p>
+                <ul>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">利用規約</a></li>
+                    <li><a href="#">特定商取引法</a></li>
+                    <li><a href="#">求人情報</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__item">
+                <p class="footer__title">CONTACT</p>
+                <ul>
+                    <li><p><i class="footer__icon fa-solid fa-envelope"></i>info@ironforce-gym.jp</p></li>
+                    <li><p><i class="footer__icon fa-solid fa-phone"></i>000-00000-00000</p></li>
+                    <li><p><i class="footer__icon fa-solid fa-clock"></i>受付：10:00〜19:00</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">© 2026 IRON FORCE GYM.</p>
+    </footer>
+
+    <!-- ============================================================
+    BACK TO TOP
+    スクロール400px以上で .visible → 表示
+    ============================================================ -->
+    <button id="backToTop" class="back__top js-back" aria-label="ページトップへ戻る">
+        <i class="back__icon fa-solid fa-angles-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<!--------- --------- ---------
+コード仕様
+
+・コンセプト
+「本気で変わる、本格ジム」 迷いなく扉を開いてもらえるよう、強さ・覚悟・結果を前面に打ち出したデザイン。
+初めて来店するユーザーに「ここなら変われる」という確信を与えることを最優先にしています。
+
+・ターゲット層
+20〜40代男性、本格的に筋トレを始めたい・再開したい層
+スポーツ競技者、体重・体型に悩むビジネスパーソン
+「何度も挫折してきた」「本物の環境で鍛えたい」という強い動機を持つ
+
+・カラーパレット
+赤×黒はスポーツブランド（Nike・Under Armour）でも多用されている。
+「強さと情熱」の組み合わせ。 ユーザーに「本気モード」のスイッチを入れてもらうためのカラー設計です。
+明るい背景色を使わないことで「ここは遊び場ではなく、戦場だ」という緊張感を演出しています。
+
+・デザインの狙い
+①「Hero」
+全画面ダーク＋赤いCTA 最初の3秒でジムの雰囲気に「引き込む」。
+背景にトレーニング風景を使い、 赤いボタン「無料体験を申し込む」を画面中央に配置することで迷わせない設計。
+
+②「セクション」
+交互配色 黒系と濃いチャコールを交互に使い、画面が単調にならないよう工夫。
+明るいセクションを意図的に使わないことで「世界観の統一感」を維持。
+
+③「数字・実績」
+前面に「設備台数」「トレーナー人数」「会員数」などの数値を大きく見せる。
+数字は信頼の証。「なんとなく良さそう」ではなく「根拠のある安心感」を提供。
+
+④「プラン比較（タブ切り替え）」
+料金プランをタブで整理することで「比較しやすく・選びやすく」。
+スクロールで流れてしまうデメリットを解消し、入会の意思決定を後押し。
+
+--------- --------- --------->

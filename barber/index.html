@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>BLADE & CO. | 大人の男のためのバーバーショップ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="名古屋のバーバーショップ。本物志向の男性に向けた、洗練されたカットとシェービングを提供。余白と静けさにこだわった空間で、清潔感と品格を磨く特別な時間を。">
+
+    <link rel="icon" href="img/kaori-a-LawKgtILJFE-unsplash.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://use.fontawesome.com/releases/v7.2.0/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============================================================
+    #01 HEADER（NAVBAR）
+    ============================================================ -->
+    <header class="header">
+        <nav class="header__nav js-nav">
+            <ul class="header__menu js-menu">
+                <li><a href="#gallery">HAIR STYLE</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#info">ACCESS</a></li>
+            </ul>
+
+            <div class="header__logo logo">
+                <img src="img/blade-co-logo.png" alt="BRADE & CO.">
+            </div>
+
+            <ul class="header__sns sns">
+                <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="LINE"><i class="sns__icon fa-brands fa-line"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="sns__icon fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="FaceBook"><i class="sns__icon fa-brands fa-square-facebook"></i></a></li>
+            </ul>
+
+            <div class="header__toggle js-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="header__mask js-mask"></div>
+        </nav>
+    </header>
+
+    <!-- ============================================================
+    #02 HERO
+    ============================================================ -->
+    <section class="hero">
+        <div class="hero__inner">
+            <p class="hero__lead fadein delay1">- A BARBER FOR THE MODERN GENTLEMAN -</p>
+            <h1 class="hero__title fadein delay2">
+                磨け、男の品格。<br>
+                本物のバーバースタイルを。
+            </h1>
+            <div class="btns hero__btns fadein delay3">
+                <a href="#cta" class="button button--gold">Book Now</a>
+                <a href="#concept" class="button button--line">Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #03 CONCEPT
+    ============================================================ -->
+    <section id="concept" class="section concept">
+        <div class="wrapper">
+            <div class="concept__list">
+                <div class="concept__item">
+                    <h2 class="sec__header">
+                        <span class="sec__tag">OUR PHILOSOPHY</span>
+                        <span class="sec__title">私たちのバーバー哲学</span>
+                    </h2>
+                    <div class="concept__text">
+                        <p>
+                            Barbering is a craft.<br>
+                            バーバーとは、技術であり文化。
+                        </p>
+                        <p>
+                            <strong>伝統的なスタイル</strong>を大切にしながら、
+                            <strong>現代の感性</strong>に合わせたスタイルを提供します。
+                            髪を整える時間が、自分を整える時間になるように。
+                        </p>
+                    </div>
+                    <ul class="concept__detail">
+                        <li>完全予約制で待ち時間ゼロ</li>
+                        <li>シェービング・ヘッドスパを全コースに標準装備</li>
+                        <li>使用するハサミ・剃刀はすべて職人の特注品</li>
+                    </ul>
+                </div>
+
+                <!-- クラシカルな雰囲気の店内画像の貼り付け -->
+                <div class="concept__image">
+                    <img src="img/andre-reis-1_DAlXy0wng-unsplash.webp" alt="クラシックスタイルのバーバーショップ内観">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #04 STYLE GALLERY
+    ============================================================ -->
+    <section id="gallery" class="section gallery">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">STYLE GALLERY</span>
+                <span class="sec__title">スタイル</span>
+            </h2>
+            <div class="gallery__box">
+                <!-- 左大1枚 -->
+                <div class="gallery__item gallery__item--large"><a href="#">
+                    <img src="img/damian-barczak-5st86wYikQQ-unsplash.webp" alt="ポンパドール">
+                    <p class="gallery__title">POMPADOUR</p>
+                </a></div>
+
+                <!-- 右上2枚（横並び） -->
+                <div class="gallery__item"><a href="#">
+                    <img src="img/eye-speak-7GH0B02mBtU-unsplash.webp" alt="テクスチャーカット">
+                    <p class="gallery__title">TEXTURE CUT</p>
+                </a></div>
+                <div class="gallery__item"><a href="#">
+                    <img src="img/mohamed-b-SHA-8AjZOeY-unsplash.webp" alt="スキンフェード">
+                    <p class="gallery__title">SKIN FADE</p>
+                </a></div>
+
+                <!-- 右下2枚（横並び） -->
+                <div class="gallery__item"><a href="#">
+                    <img src="img/brock-wegner-p8VRa8Z7MEQ-unsplash.webp" alt="コーンロウ">
+                    <p class="gallery__title">CORNROWS</p>
+                </a></div>
+                <div class="gallery__item"><a href="#">
+                    <img src="img/antonio-reynoso-1Ig9rw7aC5g-unsplash.webp" alt="ホットシェービング">
+                    <p class="gallery__title">HOT SHAVING</p>
+                </a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #05 MENU
+    ============================================================ -->
+    <section id="menu" class="section menu">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">MENU</span>
+                <span class="sec__title">メニュー</span>
+            </h2>
+            <p>すべてのコースにシャンプー・ブロー・スタイリングが含まれます。</p>
+
+            <div class="menu__container">
+                <div class="menu__category">
+                    <h3 class="menu__title">Cut</h3>
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Regular Cut</strong>
+                            <span>カット + シャンプー + ブロー</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>60min</span>
+                            <strong>¥4,500</strong>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Fade Cut</strong>
+                            <span>バリカンを使った精密なグラデーションカット</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>70 min</span>
+                            <strong>¥5,000</strong>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Design Cut</strong>
+                            <span>ヒアリング + オーダーメイドスタイル提案込み</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>90 min</span>
+                            <strong>¥8,000</strong>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Cornrows</strong>
+                            <span>ヒアリング + オーダーメイドスタイル提案込み</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>90〜 min</span>
+                            <strong>¥10,000</strong>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="menu__category">
+                    <h3 class="menu__title">Option</h3>
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Eye Brow</strong>
+                            <span>顔の印象を整える眉のシェイプアップ</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>15 min</span>
+                            <strong>¥1,500</strong>
+                        </dd>
+                    </dl>
+
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Set Styling</strong>
+                            <span>既存スタイルをベストな状態に整える</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>20 min</span>
+                            <strong>¥2,200</strong>
+                        </dd>
+                    </dl>
+                    
+                    <dl class="menu__list">
+                        <dt class="menu__left">
+                            <strong>Head Spa</strong>
+                            <span>頭皮マッサージ + 毛穴ケア + 保湿トリートメント</span>
+                        </dt>
+                        <dd class="menu__right">
+                            <span>30 min</span>
+                            <strong>¥3,300</strong>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #06 BARBER
+    ============================================================ -->
+    <section id="barber" class="section barber">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">OUR BARBERS</span>
+                <span class="sec__title">スタイリスト</span>
+            </h2>
+            <div class="barber__box">
+                <!-- バーバーカード 1（左側表示） -->
+                <div class="barber__card barber__card--left"><a href="#">
+                    <div class="barber__image">
+                        <img src="" alt="Yuma Takahashi">
+                    </div>
+                    <div class="barber__info">
+                        <h3 class="barber__name">Yuma Takahashi</h3>
+                        <p class="barber__position">Head Barber / Founder</p>
+                        <p class="barber__text">
+                            ニューヨークのバーバースクールで技術を磨き、帰国後に独立。
+                            フェードカットとコーンロウを得意とし、
+                            「一度仕上げたら次も任せたい」と言われるスタイリスト。
+                        </p>
+
+                        <div class="barber__tags">
+                            <span>Regular Cut</span>
+                            <span>Fade Cut</span>
+                            <span>Cornrows</span>
+                        </div>
+                    </div>
+                </a></div>
+
+                <!-- バーバーカード 2（センター表示） -->
+                <div class="barber__card barber__card--center"><a href="#">
+                    <div class="barber__image">
+                        <img src="" alt="Koichi Kurokawa">
+                    </div>
+                    <div class="barber__info">
+                        <h3 class="barber__name">Koichi Kurokawa</h3>
+                        <p class="barber__position">Senior Barber</p>
+                        <p class="barber__text">
+                            都内有名バーバーで10年のキャリアを積んだ後、BLADE & CO.に参加。
+                            骨格に合わせたオーダーメイドカットを得意とする。
+                            ヘッドスパの施術は予約が取りにくいほどの人気。
+                        </p>
+
+                        <div class="barber__tags">
+                            <span>Regular Cut</span>
+                            <span>Fade Cut</span>
+                            <span>Head Spa</span>
+                        </div>
+                    </div>
+                </a></div>
+
+                <!-- バーバーカード 3（右側表示） -->
+                <div class="barber__card barber__card--right"><a href="#">
+                    <div class="barber__image">
+                        <img src="" alt="Rento Nakamura">
+                    </div>
+                    <div class="barber__info">
+                        <h3 class="barber__name">Rento Nakamura</h3>
+                        <p class="barber__position">Barber</p>
+                        <p class="barber__text">
+                            理容師・美容師のダブルライセンス保有。
+                            ビジネスマンのニーズに精通しており、
+                            短時間でも清潔感を最大化するカットスタイルを提案する。
+                        </p>
+
+                        <div class="barber__tags">
+                            <span>Regular Cut</span>
+                            <span>Design Cut</span>
+                            <span>Set Styling</span>
+                        </div>
+                    </div>
+                </a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #07 SHOP INFO
+    ============================================================ -->
+    <section id="info" class="section info">
+        <div class="wrapper">
+            <div class="info__list">
+                <div class="info__item">
+                    <h2 class="sec__header">
+                        <span class="sec__tag">SHOP INFO</span>
+                        <span class="sec__title">店舗情報</span>
+                    </h2>
+                    <div class="info__addr">
+                        <dl>
+                            <dt><i class="info__icon fa-solid fa-map-pin"></i></dt>
+                            <dd>
+                                <strong>住所</strong>
+                                <span>〒000-0000 愛知県 名古屋市 中区 栄 ○○ビル2F</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><i class="info__icon fa-solid fa-train"></i></dt>
+                            <dd>
+                                <strong>アクセス</strong>
+                                <span>○○線「○○駅」A1出口 徒歩3分</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><i class="info__icon fa-solid fa-clock"></i></dt>
+                            <dd>
+                                <strong>営業時間</strong>
+                                <span>
+                                    月〜金：11:00〜21:00<br>
+                                    土・日・祝：10:00〜20:00<br>
+                                </span>
+                                <strong>定休日：毎週火曜日</strong>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><i class="info__icon fa-solid fa-phone"></i></dt>
+                            <dd>
+                                <strong>電話番号</strong>
+                                <span>000-00000-00000</span>
+                                <strong>※ 完全予約制</strong>
+                            </dd>
+                        </dl>
+                    </div>
+                    <ul class="info__sns sns">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="LINE"><i class="sns__icon fa-brands fa-line"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="sns__icon fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="FaceBook"><i class="sns__icon fa-brands fa-square-facebook"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="info__map">
+                    <!-- Google Mapの貼り付け -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35483.13935622162!2d136.92358907944157!3d35.17642114185472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370d14c8d9e6b%3A0xeb12333b3b1af460!2z5qCE6aeF!5e0!3m2!1sja!2sjp!4v1775597092348!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #08 CTA
+    ============================================================ -->
+    <section id="cta" class="section cta">
+        <div class="wrapper">
+            <h2 class="sec__header">
+                <span class="sec__tag">BOOKING</span>
+                <span class="sec__title">伝統的なバーバースタイルを、予約してください。</span>
+            </h2>
+            <div class="btns cta__btns">
+                <a href="#info" class="button button--gold">Book Now</a>
+                <a href="#menu" class="button button--line">Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    #09 FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="wrapper footer__inner">
+            <div class="logo footer__logo">
+                <img src="img/blade-co-logo.png" alt="BRADE & CO.">
+            </div>
+            <nav class="footer__nav">
+                <a href="#concept">CONCEPT</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="#menu">MENU</a>
+                <a href="#info">SHOP INFO</a>
+            </nav>
+            <ul class="footer__sns sns">
+                <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="LINE"><i class="sns__icon fa-brands fa-line"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="sns__icon fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="FaceBook"><i class="sns__icon fa-brands fa-square-facebook"></i></a></li>
+            </ul>
+        </div>
+        <p class="copyright">© BLADE & CO. 2026</p>
+    </footer>
+
+    <!-- ============================================================
+    BACK TO TOP
+    スクロール400px以上で .visible → 表示
+    ============================================================ -->
+    <button id="backToTop" class="back__top js-back" aria-label="ページトップへ戻る">
+        <i class="back__icon fa-solid fa-angles-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<!--------- --------- ---------
+コード仕様
+
+・コンセプト
+デザイン全体を通じて貫いているのは、「削ぎ落とし」の美学 です。
+情報を詰め込まず、余白・静けさ・精密さを演出することで「ここは本物の職人の場所だ」という空気感を作っています。
+
+・ターゲット層
+清潔感を大切にしたり自分の見せ方にこだわりを持つ大人の男性
+
+カラーパレット
+Copy
+:root{
+    --gold:        #B8966A;
+    --gold-light:  #D4B48A;
+    --gold-pale:   #EEE0C8;
+    --black:       #0C0B09;
+    --dark:        #161410;
+    --mid-dark:    #221F1A;
+    --border:      #2E2A24;
+}
+黒は「無駄のなさ・本格感・男らしさ」を表す最強の色。 ゴールドは「高級感・こだわり・本物」の普遍的なサインです。
+この組み合わせはバーバーショップのブランディングとして世界的に定番であり、「どんな写真を入れても世界観が崩れない」安定感があります。
+
+・デザインの狙い
+①「MENU」
+メニューをリスト形式で「料金表」のニュアンスを強く演出し、右端に時間と価格を整然と並べることで「プロフェッショナルの価格設定」感と
+ホバー時に薄いゴールドのハイライトでさりげない高級感を。
+
+②「BARBER」
+スタイリストのカードは縦長カード（3:4比率）で、スタッフの顔・上半身写真が品格が与える。
+スキルタグは、ホバー時にゴールドのボーダーに変化し「能力の可視化」で安心と信頼を与える。
+
+③「CTA」
+フォームを設置しないのが重要。バーバーショップの予約は「外部の予約システム」や「電話」が一般的なので、
+CTAボタンで外部リンクへ誘導する設計に。
+
+--------- --------- --------->
