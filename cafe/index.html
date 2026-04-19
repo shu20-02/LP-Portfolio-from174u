@@ -67,8 +67,10 @@
     ============================================================ -->
         <section id="concept" class="section concept">
             <div class="concept__list">
-                <!-- 落ち着きのある気品な雰囲気を醸し出す店内画像の貼り付け -->
-                <img src="img/david-kristianto-aL7jq7uupNw-unsplash.webp" alt="カフェの内装">
+                <div class="concept__image">
+                    <!-- 落ち着きのある気品な雰囲気を醸し出す店内画像の貼り付け -->
+                    <img src="img/david-kristianto-aL7jq7uupNw-unsplash.webp" alt="カフェの内装">
+                </div>
 
                 <div class="concept__item">
                     <h2 class="sec__header">
@@ -96,42 +98,54 @@
             <div class="menu__list">
                 <div class="menu__item">
                     <div class="menu__card"><a href="#">
-                        <img src="img/emre-NZMeJsrMC8U-unsplash.webp" alt="AURA COFFEEのホットコーヒー">
+                        <div class="menu__image">
+                            <img src="img/emre-NZMeJsrMC8U-unsplash.webp" alt="AURA COFFEEのホットコーヒー">
+                        </div>
                         <div class="menu__text">
                             <h3 class="menu__title">Coffee -hot-</h3>
                             <p class="menu__price">¥ 500</p>
                         </div>
                     </a></div>
                     <div class="menu__card"><a href="#">
-                        <img src="img/olena-bohovyk-QFZgElMutbk-unsplash.webp" alt="AURA COFFEEのアイスコーヒー">
+                        <div class="menu__image">
+                            <img src="img/olena-bohovyk-QFZgElMutbk-unsplash.webp" alt="AURA COFFEEのアイスコーヒー">
+                        </div>
                         <div class="menu__text">
                             <h3 class="menu__title">Coffee -cold-</h3>
                             <p class="menu__price">¥ 500</p>
                         </div>
                     </a></div>
                     <div class="menu__card"><a href="#">
-                        <img src="img/demi-deherrera-L-sm1B4L1Ns-unsplash.webp" alt="AURA COFFEEのカフェオレ">
+                        <div class="menu__image">
+                            <img src="img/demi-deherrera-L-sm1B4L1Ns-unsplash.webp" alt="AURA COFFEEのカフェオレ">
+                        </div>
                         <div class="menu__text">
                             <h3 class="menu__title">café au lait</h3>
                             <p class="menu__price">¥ 600</p>
                         </div>
                     </a></div>
                     <div class="menu__card"><a href="#">
-                        <img src="img/nathan-dumlao-c2Y16tC3yO8-unsplash.webp" alt="AURA COFFEEのラテアート">
+                        <div class="menu__image">
+                            <img src="img/nathan-dumlao-c2Y16tC3yO8-unsplash.webp" alt="AURA COFFEEのラテアート">
+                        </div>
                         <div class="menu__text">
                             <h3 class="menu__title">Cappuccino</h3>
                             <p class="menu__price">¥ 750</p>
                         </div>
                     </a></div>
                     <div class="menu__card"><a href="#">
-                        <img src="img/nathan-dumlao-zUNs99PGDg0-unsplash.webp" alt="AURA COFFEEのラテアート">
+                        <div class="menu__image">
+                            <img src="img/nathan-dumlao-zUNs99PGDg0-unsplash.webp" alt="AURA COFFEEのラテアート">
+                        </div>
                         <div class="menu__text">
                             <h3 class="menu__title">Mocha Cappuccino</h3>
                             <p class="menu__price">¥ 750</p>
                         </div>
                     </a></div>
                     <div class="menu__card"><a href="#">
-                        <img src="img/wouter-supardi-salari-AnG9P7CWK1E-unsplash.webp" alt="AURA COFFEEのスイーツ">
+                        <div class="menu__image">
+                            <img src="img/wouter-supardi-salari-AnG9P7CWK1E-unsplash.webp" alt="AURA COFFEEのスイーツ">
+                        </div>
                         <div class="menu__text">
                             <h3 class="menu__title">Flower Cookie</h3>
                             <p class="menu__price">¥ 480</p>
@@ -178,6 +192,7 @@
                 <span class="sec__title">お客様の声</span>
             </h2>
             <div class="review__list">
+                <!-- レビューカード 1 -->
                 <div class="review__card">
                     <div class="review__stars">
                         <i class="review__icon fa-solid fa-star"></i>
@@ -248,12 +263,12 @@
     ============================================================ -->
     <section id="access" class="section access">
         <div class="wrapper">
-            <h2 class="sec__header">
-                <span class="sec__tag">ACCESS</span>
-                <span class="sec__title">アクセス・営業時間</span>
-            </h2>
             <div class="access__list">
                 <div class="access__item">
+                    <h2 class="sec__header">
+                        <span class="sec__tag">ACCESS</span>
+                        <span class="sec__title">アクセス・営業時間</span>
+                    </h2>
                     <dl class="access__addr">
                         <!-- 住所 -->
                         <dt>住所</dt>
@@ -291,10 +306,6 @@
             <div class="footer__logo logo">
                 <img src="img/aura-coffee-logo.png" alt="AURA COFFEE">
             </div>
-
-            <p class="copyright">© AURA COFFEE 2026</p>
-
-            <!-- SNS -->
             <ul class="footer__sns sns">
                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <i class="sns__icon fa-brands fa-instagram" style="color: rgb(153, 81, 0);"></i>
@@ -307,6 +318,8 @@
                 </a>
             </ul>
         </div>
+
+        <p class="copyright">© AURA COFFEE 2026</p>
     </footer>
 
     <script src="js/main.js"></script>
@@ -347,6 +360,5 @@
 
 ③「技術的な特徴」
 CSS変数による効率的な値管理とBEM命名規則による保守性の高い構造、モバイルファーストのレスポンシブデザイン。
-
 
 --------- --------- --------->
