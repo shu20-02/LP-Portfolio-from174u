@@ -169,6 +169,9 @@ ul {
     color: var(--primary);
     margin-right: 8px;
 }
+.back__icon {
+    clear: var(--black);
+}
 
 /* =======================
 #03 BUTTON
@@ -769,6 +772,7 @@ ul {
 .contact__group select,
 .contact__group textarea {
     width: 100%;
+    flex: 1;
     background-color: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 5px;
