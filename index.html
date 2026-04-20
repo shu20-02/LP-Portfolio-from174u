@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-    <header>
-        <h1>〜LPコーディングを承ります〜</h1>
+    <header class="header">
+        <h1 class="header__title">LPコーディングを承ります</h1>
     </header>
+
     <main>
-        <section>
-            <h2>スキル</h2>
+        <section class="skill">
+            <h2 class="title skill__title">スキル</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -23,33 +24,105 @@
             </ul>
         </section>
 
-        <section>
-            <h2>制作実績</h2>
-            <div>
-                <h3>バーバーショップLP</h3>
-                <a href="./barber/index.html">サイトを見る</a>
+        <section class="achieve">
+            <h2 class="title achieve__title">制作実績</h2>
+            <div class="achieve__item">
+                <h3 class="achieve__lp-title">バーバーショップLP</h3>
+                <a class="achieve__link" href="./barber/index.html">サイトを見る</a>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">ターゲット：</strong>
+                    清潔感や自己表現にこだわる大人の男性
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">課題：</strong>
+                    「どこも似たように見える」「技術力や信頼性が分かりにくい」
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">設計意図：</strong>
+                    情報を削ぎ落とし、余白と整列によって“本物の職人感”を演出。
+                    価格・時間を明確に提示し、安心して予約できる導線を設計しています。
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">工夫点：</strong>
+                    メニューをリスト化しプロフェッショナル感を強調。
+                    スタイリストのスキルを可視化し信頼を補強。
+                    予約導線はフォームを排除し、外部予約へ最短で誘導しています。
+                </p>
             </div>
 
-            <div>
-                <h3>カフェLP</h3>
-                <a href="./cafe/index.html">サイトを見る</a>
+            <div class="achieve__item">
+                <h3 class="achieve__lp-title">カフェLP</h3>
+                <a class="achieve__link" href="./cafe/index.html">サイトを見る</a>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">ターゲット：</strong>
+                    大学生〜30代前半の男女、落ち着いた空間で過ごしたい層
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">課題：</strong>
+                    「カフェが多く差別化が難しい」「居心地の良さが伝わりにくい」
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">設計意図：</strong>
+                    暗めのトーンで統一し、非日常感と落ち着きを演出。
+                    視覚的な安心感を重視し、“長居したくなる空間”をイメージさせる構成にしています。
+                    横スクロールカードを使い、メニューや空間を直感的に把握できるよう設計。
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">工夫点：</strong>
+                    スター評価や写真配置により安心感を補強し、
+                    初来店の心理的ハードルを低減。
+                    モバイルファーストで設計し、スマホでの閲覧体験を最適化しています。
+                </p>
             </div>
 
-            <div>
-                <h3>トレーニングジムLP</h3>
-                <a href="./gym/index.html">サイトを見る</a>
+            <div class="achieve__item">
+                <h3 class="achieve__lp-title">トレーニングジムLP</h3>
+                <a class="achieve__link" href="./gym/index.html">サイトを見る</a>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">ターゲット：</strong>
+                    20〜40代男性、本格的に筋トレを始めたい・再開したい層
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">課題：</strong>
+                    「ジムが多く違いが分からない」「本当に変われるか不安」「過去に挫折経験がある」
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">設計意図：</strong>
+                    ファーストビューで“本気で変わる場所”であることを明確化し、
+                    強いビジュアルと赤のCTAで行動を即決させる構成にしています。
+                    信頼（実績）→共感→行動の導線を意識し、無料体験へのCVを狙っています。
+                </p>
+
+                <p class="achieve__text">
+                    <strong class="achieve__label">工夫点：</strong>
+                    パーソナルトレーナーとしての視点を活かし、
+                    ユーザーの不安や挫折経験を前提に構成設計。
+                    数字（設備・会員数）を強調し信頼を可視化、
+                    タブ式プランで意思決定をスムーズにしています。
+                </p>
             </div>
         </section>
 
         <section>
-            <h2>制作について</h2>
+            <h2 class="title sub__title">制作について</h2>
             <p>
                 ターゲットや導線設計を意識したLP制作を行っています。
             </p>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>お問い合わせはクラウドソーシングよりお願いいたします。</p>
     </footer>
 </body>

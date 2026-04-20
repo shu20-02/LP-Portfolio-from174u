@@ -1,84 +1,97 @@
 /* =======================
 BASE
 ======================= */
-html{
+html {
     font-size: 100%;
 }
-body{
+body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
+    color: #333333;
+    line-height: 1.7;
 }
-main{
+main {
     max-width: 1000px;
-    margin: 0 auto;
     padding: 40px 20px;
-}
-/* =======================
-TITLE
-======================= */
-h1{
-    font-size: 32px;
-    padding: 30px 0;
-    text-align: center;
-}
-h2{
-    font-size: 24px;
-    margin-bottom: 16px;
-    border-bottom: 2px solid #000;
-    display: inline-block;
-}
-h3{
-    font-size: 18px;
-    margin-bottom: 8px;
+    margin: 0 auto;
 }
 /* =======================
 SECTION
 ======================= */
-section{
+section {
     margin-bottom: 60px;
 }
+
+/* =======================
+TITLE
+======================= */
+.header__title {
+    text-align: center;
+    font-size: 24px;
+    padding: 24px 0;
+}
+.title {
+    display: inline-block;
+    border-bottom: 2px solid #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.achieve__lp-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* =======================
+TEXT
+======================= */
+.achieve__text {
+    margin-bottom: 12px;
+}
+
 /* =======================
 CARD
 ======================= */
-section div{
-    border: 1px solid #ddd;
+.achieve__item {
+    border: 1px solid #dddddd;
     padding: 20px;
     margin-bottom: 20px;
 }
+
 /* =======================
 BUTTON
 ======================= */
-a{
+.achieve__link {
     display: inline-block;
-    margin-top: 10px;
-    padding: 8px 16px;
-    border: 1px solid #000;
     text-decoration: none;
-    color: #000;
-    transition: 0.3s;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    transition: background-color 0.3s,
+                color 0.3s;
 }
-a:hover{
-    background: #000;
-    color: #fff;
+.achieve__link:hover {
+    background: #000000;
+    color: #ffffff;
 }
+
 /* =======================
-FOOTR
+FOOTER
 ======================= */
-footer{
+.footer {
     text-align: center;
-    padding: 20px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #dddddd;
     font-size: 14px;
+    padding: 20px;
 }
+
 /* =======================
-RESPONSE
+RESPONSIVE
 ======================= */
-@media(max-width: 768px){
-    h1{
-        font-size: 24px;
+@media (min-width: 768px) {
+    h1 {
+        font-size: 32px;
     }
-    h2{
-        font-size: 20px;
+    h2 {
+        font-size: 24px;
     }
 }
