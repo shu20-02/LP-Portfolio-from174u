@@ -898,7 +898,6 @@ ul {
     gap: 8px;
 }
 .footer__item a {
-    display: block;
     font-size: 0.9rem;
     padding: 4px 0;
     transition: color var(--transition-fast),
